@@ -5,38 +5,40 @@ import fs from 'fs';
 import moment from 'moment-timezone';
 
 global.botnumber = "967736615673"
-global.confirmCode = "967736615673"
+global.confirmCode = "967778471926"
 global.authFile = `MysticSession`;
 
 // Cambiar a true si el Bot responde a sus comandos con otros comandos.
 // Cambiar a false para usar el Bot desde el mismo numero del Bot.
 // Error de m.isBaileys marcado como false fix temporal
-global.isBaileysFail = false;
+global.isBaileysFail = false
 
-global.defaultLenguaje = 'es';
+global.defaultLenguaje = 'ar';
+
 
 global.owner = [
-  ['5219996125657', '👑 Propietario 👑', true],
-  ['5492916450307'],
-  ['5493794297363'],
-  ['59169082575'],
-  ['595972184435'],
-  ['5215533827255']
-];
+  ['967736615673', 'جلال الجماعي', true],
+  ];
 
 global.suittag = ['967736615673'];
-global.prems = [];
+global.prems = ['967736615673'];
 
-// Base Rest Api
-global.BASE_API_DELIRIUS = "https://delirius-apiofc.vercel.app";
+// API
+global.BASE_API_DELIRIUS = "https://deliriusapi-official.vercel.app";
 
-global.packname = 'Sticker';
-global.author = 'BrunoSobrino';
-global.wm = 'The Mystic - Bot';
-global.titulowm = 'Mystic Bot';
-global.titulowm2 = `Mystic Bot`
-global.igfg = 'The Mystic';
-global.wait = '*_[ ⏳ ] Cargando..._*';
+global.packname = '父ﺗﺳرﻕﺣﻗوﻕدﻟﻳﻝﻓﺷﻟكঌ';
+global.author = 'ﺧذ،،وﺗوﻛﻝﻳاﻟﺣﺟﻲ';
+global.wm = '﮼♪ﺑوﺕ|الصاعـ|ـقة⁞¹²';
+global.titulowm = ' ﮼♪ﺑوﺕ|الصاعـ|ـقة⁞¹²';
+global.titulowm2 = `ﺷﻋﺑوﻃ وﺑڛ☻`
+global.igfg = 'شعبوط يحيكم☻';
+global.wait = '> _جاري معالجة طلبك حاول الإنتظار ..._*';
+
+/*global.imagen1 = fs.createReadStream('./src/assets/images/menu/languages/es/menu.png');
+global.imagen2 = fs.createReadStream('./src/assets/images/menu/languages/pt/menu.png');
+global.imagen3 = fs.createReadStream('./src/assets/images/menu/languages/fr/menu.png');
+global.imagen4 = fs.createReadStream('./src/assets/images/menu/languages/en/menu.png');
+global.imagen5 = fs.createReadStream('./src/assets/images/menu/languages/ru/menu.png');*/
 
 global.imagen1 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png');
 global.imagen2 = fs.readFileSync('./src/assets/images/menu/languages/pt/menu.png');
@@ -48,23 +50,22 @@ global.mods = [];
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
-global.locale = 'es';
+global.locale = 'ar';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
-global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
-global.mes = d.toLocaleDateString('es', {month: 'long'});
-global.año = d.toLocaleDateString('es', {year: 'numeric'});
+global.fecha = d.toLocaleDateString('ar', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('ar', {month: 'long'});
+global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
-//* ****************************
-global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
-global.gt = 'The Mystic - Bot';
-global.mysticbot = 'The Mystic - Bot';
+//* ****************************global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
+global.gt = 'ﺑوټﺷﻋﺑوﻃ...';
+global.mysticbot = 'اﻟﺻاﻋﻗﮬ';
 global.channel = 'https://whatsapp.com/channel/0029Vaein6eInlqIsCXpDs3y';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.waitt = '*_[ ⏳ ] Cargando..._*';
-global.waittt = '*_[ ⏳ ] Cargando..._*';
-global.waitttt = '*_[ ⏳ ] Cargando..._*';
-global.nomorown = '5219993404349';
+global.waitt =  '> سوف أجيب عن سؤالك بعد قليل ...';
+global.waittt =  '> _جاري معالجة طلبك حاول الإنتظار ..._*' ;
+global.waitttt =  '> سوف يتم رسم صورتك بعد قليل ...';
+global.nomorown = '967736615673';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -81,7 +82,7 @@ global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
 global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
 global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
-global.fgif = { key: { participant: '0@s.whatsapp.net' }, message: { 'videoMessage': { 'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./src/assets/images/menu/languages/es/menu.png')}}};
+global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./src/assets/images/menu/languages/es/menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
   'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
