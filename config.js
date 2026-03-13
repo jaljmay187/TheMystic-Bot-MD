@@ -4,8 +4,8 @@ import {fileURLToPath} from 'url';
 import fs from 'fs'; 
 import moment from 'moment-timezone';
 
-global.botnumber = ""
-global.confirmCode = ""
+global.botnumber = "967736615673"
+global.confirmCode = "967736615673"
 global.authFile = `MysticSession`;
 
 // Cambiar a true si el Bot responde a sus comandos con otros comandos.
@@ -24,7 +24,7 @@ global.owner = [
   ['5215533827255']
 ];
 
-global.suittag = ['5219993404349'];
+global.suittag = ['967736615673'];
 global.prems = [];
 
 // Base Rest Api
